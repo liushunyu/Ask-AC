@@ -16,6 +16,11 @@ See `requirment.txt` file for more information about how to install the dependen
 Please follow the instructions below to replicate the results in the paper.
 
 ```bash
+# test the game-playing performance of the human advisor
+python test_human.py
+
+
+# train the agent with the human advisor
 python train_human.py --exp run
 ```
 

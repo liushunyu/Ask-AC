@@ -1,4 +1,4 @@
-from stable_baselines3 import PPO, AskPPO, A2C, AskA2C, DQN
+from stable_baselines3 import PPO, AskPPO, A2C, AskA2C
 from stable_baselines3.common.utils import linear_schedule
 
 

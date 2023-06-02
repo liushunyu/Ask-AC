@@ -105,12 +105,6 @@ class OnAskPolicyAlgorithm(BaseAlgorithm):
         self.use_baseline_ask = use_baseline_ask
         self.ask_threshold = ask_threshold
 
-        # # =================== identification mechanism for human mistakes start ===================
-        # self.cnt_random_human_action = 0
-        # self.cnt_find_random_human_action = 0
-        # self.ratio_find_random_human_action = 0.0
-        # # =================== identification mechanism for human mistakes end ===================
-
         if _init_setup_model:
             self._setup_model()
 
@@ -285,16 +279,6 @@ class OnAskPolicyAlgorithm(BaseAlgorithm):
                 logger.record("time/fps", fps)
                 logger.record("time/time_elapsed", int(time.time() - self.start_time), exclude="tensorboard")
                 logger.record("time/total_timesteps", self.num_timesteps, exclude="tensorboard")
-
-                # # =================== identification mechanism for human mistakes log start ===================
-                # logger.record("random_human/cnt_random_human_action", self.cnt_random_human_action)
-                # logger.record("random_human/cnt_find_random_human_action", self.cnt_find_random_human_action)
-                #
-                # if self.cnt_random_human_action != 0:
-                #     self.ratio_find_random_human_action = self.cnt_find_random_human_action / self.cnt_random_human_action
-                # logger.record("random_human/ratio_find_random_human_action", self.ratio_find_random_human_action)
-                # # =================== identification mechanism for human mistakes log end ===================
-
                 logger.dump(step=self.num_timesteps)
 
             self.train()
