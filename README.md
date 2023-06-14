@@ -20,26 +20,33 @@ Official codebase for paper [Ask-AC: An Initiative Advisor-in-the-Loop Actor-Cri
 
 
 
-## 1. Prerequisites
+## Prerequisites
 
 #### Install dependencies
 
 See `requirment.txt` file for more information about how to install the dependencies.
 
 
-## 2. Usage
+## Usage
 
 Please follow the instructions below to replicate the results in the paper.
 
 ```bash
 # test the game-playing performance of the human advisor
 python test_human.py
+```
 
+![image](https://github.com/liushunyu/Ask-AC/blob/master/test-human.png)
+
+```bash
 # train the agent with the human advisor
 python train_human.py --exp run
 ```
 
-## 3. Citation
+![image](https://github.com/liushunyu/Ask-AC/blob/master/train-human.png)
+
+
+## Citation
 
 If you find this work useful for your research, please cite our paper:
 
@@ -51,3 +58,7 @@ If you find this work useful for your research, please cite our paper:
   year={2022}
 }
 ```
+
+## Contact
+
+Please feel free to contact me via email (<liushunyu@zju.edu.cn>) if you are interested in my research :)
