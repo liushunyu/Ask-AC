@@ -24,7 +24,7 @@ Official codebase for paper [Ask-AC: An Initiative Advisor-in-the-Loop Actor-Cri
 
 #### Install dependencies
 
-See `requirment.txt` file for more information about how to install the dependencies.
+See `requirments.txt` file for more information about how to install the dependencies.
 
 
 ## Usage
