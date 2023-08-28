@@ -54,8 +54,12 @@ If you find this work useful for your research, please cite our paper:
 @article{liu2022AskAC,
   title={Ask-AC: An Initiative Advisor-in-the-Loop Actor-Critic Framework},
   author={Liu, Shunyu and Wang, Xinchao and Yu, Na and Song, Jie and Chen, Kaixuan and Feng, Zunlei and Song, Mingli},
-  journal={arXiv preprint arXiv:2207.01955},
-  year={2022}
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TSMC.2023.3296773}
 }
 ```
 
