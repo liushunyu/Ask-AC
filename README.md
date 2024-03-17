@@ -51,14 +51,14 @@ python train_human.py --exp run
 If you find this work useful for your research, please cite our paper:
 
 ```
-@article{liu2022AskAC,
+@article{liu2023AskAC,
   title={Ask-AC: An Initiative Advisor-in-the-Loop Actor-Critic Framework},
   author={Liu, Shunyu and Wang, Xinchao and Yu, Na and Song, Jie and Chen, Kaixuan and Feng, Zunlei and Song, Mingli},
   journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
   year={2023},
-  volume={},
-  number={},
-  pages={1-12},
+  volume={53},
+  number={12},
+  pages={7403-7414},
   doi={10.1109/TSMC.2023.3296773}
 }
 ```
