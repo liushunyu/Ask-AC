@@ -58,7 +58,7 @@ If you find this work useful for your research, please cite our paper:
   year={2023},
   volume={53},
   number={12},
-  pages={7403-7414},
+  pages={7403--7414},
   doi={10.1109/TSMC.2023.3296773}
 }
 ```
